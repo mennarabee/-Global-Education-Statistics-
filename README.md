@@ -42,7 +42,7 @@ The dataset used in this project contains global education and demographic indic
 * Member 1 & 2: Nadia Mohammed Ibrahim & Haidy Hossam-Eldeen Mohammed --->  Comparison Charts 
 * Member 3: Malak Waleed Youssef ---> Relationship Charts
 * Member 4: Tasneem Tarek Mohammed ---> Distribution  Charts
-* Member 5: Menna-Allah Rabee Mohammed ---> Time-Series Charts + GUI
+* Member 5: Menna-Allah Rabee Mohammed ---> Preprocessing +Time-Series Charts + GUI
 
 ---
 
