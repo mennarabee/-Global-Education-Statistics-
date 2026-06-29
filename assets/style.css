@@ -1,0 +1,146 @@
+/* ======================
+   GLOBAL (LIGHT MODE)
+====================== */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8fafc; /* فاتح */
+    margin: 0;
+    color: #000; /* النص أسود */
+}
+
+/* ======================
+   TEXT
+====================== */
+h1, h2, h3 {
+    color: #000;
+}
+
+/* ======================
+   MAIN CONTAINER
+====================== */
+.main-container {
+    padding: 20px 40px;
+}
+
+/* ======================
+   TITLE
+====================== */
+.main-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #0ea5e9; /* أزرق هادي */
+}
+
+/* ======================
+   CONTROLS PANEL
+====================== */
+.controls-container {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+}
+
+.control {
+    margin-bottom: 20px;
+}
+
+/* ======================
+   DROPDOWN
+====================== */
+.Select-control {
+    background-color: #ffffff !important;
+    color: #000 !important;
+    border: 1px solid #ccc;
+}
+
+.Select-menu-outer {
+    background-color: #ffffff !important;
+}
+
+.Select-option {
+    color: #000 !important;
+    background-color: #ffffff !important;
+}
+
+.Select-option.is-focused {
+    background-color: #e2e8f0 !important;
+}
+
+.Select-option.is-selected {
+    background-color: #cbd5f5 !important;
+}
+
+.Select-value-label {
+    color: #000 !important;
+}
+
+/* ======================
+   SLIDER
+====================== */
+.rc-slider-mark-text {
+    color: #000 !important;
+}
+
+/* ======================
+   RADIO & CHECKLIST TEXT
+====================== */
+.control_w label {
+    color: #000 !important;
+}
+
+/* ======================
+   GRID LAYOUT
+====================== */
+.charts-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+/* ======================
+   CHART CARD
+====================== */
+.chart {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+}
+
+.chart:hover {
+    transform: translateY(-5px) scale(1.01);
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
+}
+
+/* ======================
+   PLOTLY TEXT
+====================== */
+.js-plotly-plot .plotly .gtitle {
+    fill: black !important;
+}
+
+.js-plotly-plot .xtick text,
+.js-plotly-plot .ytick text {
+    fill: black !important;
+}
+
+/* ======================
+   RESPONSIVE
+====================== */
+@media (max-width: 900px) {
+    .charts-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ======================
+   CONTROL WRAPPER
+====================== */
+.control_w {
+    margin-bottom: 20px;
+}
